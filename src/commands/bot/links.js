@@ -25,15 +25,8 @@ module.exports = async (client, interaction, args) => {
                         emoji: "🌍",
                         value: "community-linkspanel",
                     },
-                    {
-                        label: `Top.gg`,
-                        description: `Show the top.gg link`,
-                        emoji: "📃",
-                        value: "top.gg-linkspanel",
-                    },
                 ]),
         );
-
     client.embed({
         title: `🔗・Links`,
         desc: `Get access to all Bot links! Choose the link you need in the menu below`,
