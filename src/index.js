@@ -5,7 +5,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('This bot is running CorwinDev\'s  <a href="https://github.com/CorwinDev/Discord-Bot">Discord-Bot</a>')
+  res.sendFile(__dirname + '/index.html');
 })
 
 app.listen(3000)
