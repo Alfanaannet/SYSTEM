@@ -50,17 +50,22 @@ module.exports = async (client, interaction, args) => {
                 },
                 {
                     name: "🔧┆Bot owner",
-                    value: `<@!755297485328482356> `,
+                    value: `<@!775012312876711936> `,
                     inline: true,
                 },
                 {
                     name: "🔧┆Bot developer",
-                    value: `<@!755297485328482356> <@!884553151666061372>`,
+                    value: `<@!775012312876711936> <@!314361012084146176>`,
                     inline: true,
                 },
                 {
                     name: "💻┆Commands",
                     value: `\`${client.commands.size}\` commands`,
+                    inline: true,
+                },
+                {
+                    name: "🌐┆Servers owner",
+                    value: `<@!431088711652999168> `,
                     inline: true,
                 },
                 {
@@ -112,16 +117,6 @@ module.exports = async (client, interaction, args) => {
                 {
                     name: "🏷┆Bot Version",
                     value: `\`${require(`${process.cwd()}/package.json`).version}\``,
-                    inline: true,
-                },
-                {
-                    name: "🏷┆Node.js Version",
-                    value: `\`${process.version}\``,
-                    inline: true,
-                },
-                {
-                    name: "📂┆Discord.js Version",
-                    value: `\`${Discord.version}\``,
                     inline: true,
                 },
                 {
