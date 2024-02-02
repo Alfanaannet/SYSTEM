@@ -55,7 +55,7 @@ module.exports = async (client, interaction, args) => {
                 },
                 {
                     name: "🔧┆Bot developer",
-                    value: `<@!775012312876711936> <@!314361012084146176>`,
+                    value: `<@!775012312876711936> <@!314361012084146176> <@!431088711652999168>`,
                     inline: true,
                 },
                 {
@@ -64,7 +64,7 @@ module.exports = async (client, interaction, args) => {
                     inline: true,
                 },
                 {
-                    name: "🌐┆Servers owner",
+                    name: "🌐┆Its Server owner",
                     value: `<@!431088711652999168> `,
                     inline: true,
                 },
