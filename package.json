@@ -31,7 +31,6 @@
     "@haileybot/captcha-generator": "^1.7.0",
     "@iamtraction/google-translate": "^2.0.1",
     "@top-gg/sdk": "^3.1.3",
-    "abab": "^2.0.6",
     "axios": "^1.2.2",
     "canvacord": "^5.4.8",
     "chalk": "^4.1.2",
@@ -51,7 +50,6 @@
     "fs": "^0.0.1-security",
     "generate-password": "^1.7.0",
     "giphy-api": "^2.0.2",
-    "har-validator": "^5.1.5",
     "he": "^1.2.0",
     "html-entities": "^2.3.3",
     "i": "^0.3.7",
@@ -72,7 +70,6 @@
     "sourcebin": "^5.0.0",
     "topgg-autoposter": "^2.0.1",
     "util": "^0.12.5",
-    "uuid": "^9.0.1",
     "weather-js": "^2.0.0",
     "ytdl-core": "^4.11.2"
   },
