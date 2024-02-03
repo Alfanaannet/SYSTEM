@@ -270,7 +270,7 @@ module.exports = async (client) => {
                             if (page == 1) {
                                 client.embed({
                                     title: `❓・Help panel`,
-                                    desc: `View all command categories in the bot here! \n\n[Discord](https://discord.gg/its-community-917580196251594815) | [Invite](${client.config.discord.botInvite})`,
+                                    desc: `View all command categories in the bot here! \n\n[Discord]("https://discord.gg/its-community-917580196251594815") | [Invite](${client.config.discord.botInvite})`,
                                     fields: fields.slice(25, 49),
                                     components: [row2, row],
                                     type: 'update'
@@ -283,7 +283,7 @@ module.exports = async (client) => {
                             if (page == 2) {
                                 client.embed({
                                     title: `❓・Help panel`,
-                                    desc: `View all command categories in the bot here! \n\n[Website](itscommunity.giize.com) | [Invite](${client.config.discord.botInvite})`,
+                                    desc: `View all command categories in the bot here! \n\n[Website]("itscommunity.giize.com") | [Invite](${client.config.discord.botInvite})`,
                                     fields: fields.slice(0, 24),
                                     components: [row2, row],
                                     type: 'update'
