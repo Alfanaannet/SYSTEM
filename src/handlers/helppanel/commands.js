@@ -255,7 +255,7 @@ module.exports = async (client) => {
 
                 client.embed({
                     title: `❓・Help panel`,
-                    desc: `View all command categories in the bot here! \n\n[Website](itscommunity.giize.com) | [Invite](${client.config.discord.botInvite})`,
+                    desc: `View all command categories in the bot here! \n\n[Website]("itscommunity.giize.com") | [Invite](${client.config.discord.botInvite})`,
                     image: "https://cdn.discordapp.com/attachments/843487478881976381/874694194474668052/Bot_banner_invite.jpg",
                     fields: fields.slice(0, 24),
                     components: [row2, row],
