@@ -49,6 +49,11 @@ module.exports = async (client, interaction, args) => {
                     inline: true,
                 },
                 {
+                    name: "🌐┆Its Server owner",
+                    value: `<@!431088711652999168> `,
+                    inline: true,
+                },
+                {
                     name: "🔧┆Bot owner",
                     value: `<@!775012312876711936> `,
                     inline: true,
@@ -63,11 +68,7 @@ module.exports = async (client, interaction, args) => {
                     value: `\`${client.commands.size}\` commands`,
                     inline: true,
                 },
-                {
-                    name: "🌐┆Its Server owner",
-                    value: `<@!431088711652999168> `,
-                    inline: true,
-                },
+
                 {
                     name: "🌐┆Servers",
                     value: `\`${totalGuilds}\` servers`,
@@ -126,7 +127,7 @@ module.exports = async (client, interaction, args) => {
                 },
                 {
                     name: "🔗┆Links",
-                    value: `Add me: [[HERE]](${client.config.discord.botInvite}) \nSupport server: [[HERE]](${client.config.discord.serverInvite})`,
+                    value: `Add me: [[HERE]](${client.config.discord.botInvite}) \nSupport server: [[HERE]](${client.config.discord.serverInvite} \n[Website]("itscommunity.giize.com"))`,
                     inline: false,
                 }],
                 type: 'editreply'
