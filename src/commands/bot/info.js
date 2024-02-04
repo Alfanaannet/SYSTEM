@@ -49,17 +49,7 @@ module.exports = async (client, interaction, args) => {
                     inline: true,
                 },
                 {
-                    name: "🌐┆Its Server owner",
-                    value: `<@!431088711652999168> `,
-                    inline: true,
-                },
-                {
                     name: "🔧┆Bot owner",
-                    value: `<@!775012312876711936> `,
-                    inline: true,
-                },
-                {
-                    name: "🔧┆Bot developer",
                     value: `<@!775012312876711936> \n<@!314361012084146176> \n<@!431088711652999168>`,
                     inline: false,
                 },
