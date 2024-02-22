@@ -96,6 +96,7 @@ module.exports = (client, oldState, newState) => {
                         name: "⌛",
                         type:  Discord.ChannelType.GuildVoice,
                         parent: data.Category,
+                        userLimit: newState.member.voice.channel.userLimit
                     });
 
                     if (member.voice.setChannel(channel)) {
