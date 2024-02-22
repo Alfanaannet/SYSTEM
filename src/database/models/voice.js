@@ -5,7 +5,7 @@ const Schema = new mongoose.Schema({
     Category: String,
     Channel: String,
     ChannelName: String,
-    boolean: boolean,
+    boolean: Boolean,
     ChannelCount: { type: Number, default: 0 }
 });
 
