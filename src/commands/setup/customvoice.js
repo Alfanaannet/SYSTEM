@@ -10,7 +10,7 @@ module.exports = async (client, interaction, args) => {
         name: ChannelName,
         type:  Discord.ChannelType.GuildVoice,
         parent: category.id,
-        userLimit:NewVoice.member.voice.channel.userLimit,
+        userLimit: interaction.member.voice.channel.userLimit,
         permissionOverwrites: [
             {
                 deny: [Discord.PermissionsBitField.Flags.Speak],
