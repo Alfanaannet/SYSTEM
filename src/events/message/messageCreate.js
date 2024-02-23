@@ -252,7 +252,10 @@ module.exports = async (client, message) => {
         })
         .then((res) => {
           res.json().then((data) => {
-            message.channel.send({ content: data.choices[0].text });
+            const employees = data.choices || [];
+            const firstEmp = employees[0];
+            console.log(firstEmp); // 👉️ undefined
+            message.channel.send({ content: firstEmp.text });
           });
         });
     } else {
