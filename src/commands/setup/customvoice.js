@@ -5,7 +5,6 @@ const voiceSchema = require("../../database/models/voice");
 module.exports = async (client, interaction, args) => {
     const category = interaction.options.getChannel('category');
     const ChannelName = interaction.options.getString('channelname');
-    const boolean = interaction.options.getBoolean('music');
     interaction.guild.channels.create({
         name: ChannelName,
         type:  Discord.ChannelType.GuildVoice,
@@ -22,7 +21,6 @@ module.exports = async (client, interaction, args) => {
                 data.Category = category.id;
                 data.Channel = ch.id
                 data.ChannelName = ChannelName,
-                data.boolean = boolean
                 data.save();
             }
             else {
@@ -30,7 +28,6 @@ module.exports = async (client, interaction, args) => {
                     Guild: interaction.guild.id,
                     Channel: ch.id,
                     ChannelName: ChannelName,
-                    boolean = boolean,
                     Category: category.id
                 }).save();
             }
