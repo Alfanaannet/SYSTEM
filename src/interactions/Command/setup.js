@@ -27,7 +27,7 @@ module.exports = {
                 .setDescription('Setup the custom voice channels')
                 .addChannelOption(option => option.setName('category').setDescription('Select a category where the channels come in').setRequired(true).addChannelTypes(ChannelType.GuildCategory))
                 .addStringOption(option => option.setName('channelname').setDescription('The template for the channel names').setRequired(true))
-                .addBooleanOption(option => option.setName('music').setDescription('Temp Voice Music Or Temp Voice Normal').setRequired(true).addChoices({ name: 'Temp Voice Music', value: 'true' }, { name: 'Temp Voice Normal', value: 'false' } )
+                .addBooleanOption(option => option.setName('music').setDescription('Temp Voice Music Or Temp Voice Normal').setRequired(true).addChoices({ name: 'Temp Voice Music', value: 'true' }, { name: 'Temp Voice Normal', value: 'false' } ))
         )
         .addSubcommand(subcommand =>
             subcommand
