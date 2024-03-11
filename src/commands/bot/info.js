@@ -50,7 +50,7 @@ module.exports = async (client, interaction, args) => {
                 },
                 {
                     name: "🔧┆Bot owner",
-                    value: `<@!775012312876711936> \n<@!314361012084146176> \n<@!431088711652999168>`,
+                    value: `<@!775012312876711936> \n<@!314361012084146176>`,
                     inline: false,
                 },
                 {
@@ -106,18 +106,13 @@ module.exports = async (client, interaction, args) => {
                     inline: true,
                 },
                 {
-                    name: "🏷┆Bot Version",
-                    value: `\`${require(`${process.cwd()}/package.json`).version}\``,
-                    inline: true,
-                },
-                {
                     name: "💾┆Bot memory",
                     value: `\`${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}\` MB`,
                     inline: true,
                 },
                 {
                     name: "🔗┆Links",
-                    value: `Add me: [[HERE]](${client.config.discord.botInvite}) \nSupport server: [[HERE]](${client.config.discord.serverInvite} \n[Website]("itscommunity.giize.com"))`,
+                    value: `Add me: [[HERE]](${client.config.discord.botInvite}) \nSupport server: [[HERE]](${client.config.discord.serverInvite})`,
                     inline: false,
                 }],
                 type: 'editreply'
