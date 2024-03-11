@@ -10,7 +10,7 @@ module.exports = {
     prefix: '!',
     footer: `AW | SYSTEM BY ELFANAAN - ${new Date().getFullYear()}`,
     botInvite: `https://discord.com/oauth2/authorize?&client_id=1194496703018057820&scope=applications.commands+bot&permissions=8`,
-    serverInvite: "https://discord.gg/its-community-917580196251594815",
+    serverInvite: "https://discord.gg/Q2snkDW8fy",
   },
 
   wordList: `Airplane
