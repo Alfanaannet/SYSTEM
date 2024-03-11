@@ -38,8 +38,8 @@ module.exports = async (client) => {
                 } else {
                     statuttext = [
                         `・❓┆/help`,
-                        `・💻┆ITS COMMUNITY`,
-                        `・💻┆ITS | SYSTEM`
+                        `・💻┆ARAB WARRIORS`,
+                        `・💻┆AW | SYSTEM`
                     ];
                 }
                 const randomText = statuttext[Math.floor(Math.random() * statuttext.length)];
