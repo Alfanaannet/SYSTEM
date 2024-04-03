@@ -16,7 +16,7 @@ module.exports = async (client, interaction, args) => {
         },
         {
             name: "🎶┆Radio Station",
-            value: `[Radio 538](https://www.538.nl/)`,
+            value: `[ُEg Radio],
             inline: true
         },
         ],
