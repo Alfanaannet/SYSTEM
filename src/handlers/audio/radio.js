@@ -70,11 +70,11 @@ module.exports = (client) => {
 
     player.on('error', error => {
         client.emit("voiceError", error);
-        client.startStream(process.env.RADIO || "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538");
+        client.startStream("https://stream.radiojar.com/8s5u5tpdtwzuv");
     });
 
     client.on(Discord.Events.ClientReady, async () => {
-        client.startStream(process.env.RADIO || "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538");
+        client.startStream("https://stream.radiojar.com/8s5u5tpdtwzuv");
         
         Schema.find(async (err, data) => {
             if (data) {
