@@ -86,10 +86,10 @@ if (clientID && clientSecret) {
             new Facebook(),
         ],
         nodes: [
-            {
-                host: process.env.LAVALINK_HOST || "lava.link",
-                port: parseInt(process.env.LAVALINK_PORT) || 80,
-                password: process.env.LAVALINK_PASSWORD || "CorwinDev"
+           {
+                  host:"5.249.164.150", 
+                  port:"22562"), 
+                  password:"youshallnotpass",
             },
         ],
         send(id, payload) {
