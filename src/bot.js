@@ -64,14 +64,7 @@ if (clientID && clientSecret) {
                 clientSecret,
             })
         ],
-        nodes: [
-            {
-                  host:"5.249.164.150", 
-                  port:"22562"), 
-                  password:"youshallnotpass",
-                  version: "v3"
-            },
-        ],
+        nodes: [],
         send(id, payload) {
             const guild = client.guilds.cache.get(id);
             if (guild) guild.shard.send(payload);
@@ -86,15 +79,7 @@ if (clientID && clientSecret) {
             new Deezer(),
             new Facebook(),
         ],
-        nodes: [
-           {
-                  host:"5.249.164.150", 
-                  port:"22562"), 
-                  password:"youshallnotpass",
-                  version: "v3"
-               
-            },
-        ],
+        nodes: [],
         send(id, payload) {
             const guild = client.guilds.cache.get(id);
             if (guild) guild.shard.send(payload);
