@@ -64,7 +64,7 @@ module.exports = (client) => {
 
     player.on('stateChange', (oldState, newState) => {
         if (newState.status === Voice.AudioPlayerStatus.Idle) {
-            client.startStream(process.env.RADIO || "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538")
+            client.startStream("https://stream.radiojar.com/8s5u5tpdtwzuv")
         }
     });
 
