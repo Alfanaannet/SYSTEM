@@ -69,6 +69,7 @@ if (clientID && clientSecret) {
                   host:"5.249.164.150", 
                   port:"22562"), 
                   password:"youshallnotpass",
+                  version: "v3"
             },
         ],
         send(id, payload) {
